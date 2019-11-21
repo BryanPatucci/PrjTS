@@ -1,14 +1,14 @@
 namespace empresa{
     export abstract class Pessoa{
-        private _nome:String;
-        private _idade:Number;
-        private _cpf:String;
+        private _nome:string;
+        private _idade:number;
+        private _cpf:string;
 
         public getNome(){
             return this._nome;
         }
 
-        public setNome(nome:String){
+        public setNome(nome:string){
             this._nome = nome;
         }
 
@@ -16,7 +16,7 @@ namespace empresa{
             return this._idade;
         }
 
-        public setIdade(idade:Number){
+        public setIdade(idade:number){
             this._idade = idade;
         }
 
@@ -24,7 +24,7 @@ namespace empresa{
             return this._cpf;
         }
 
-        public setCpf(cpf:String){
+        public setCpf(cpf:string){
             this._cpf = cpf;
         }
     }
