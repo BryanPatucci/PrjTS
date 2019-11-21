@@ -25,7 +25,7 @@ namespace empresa{
             return this._clientes;
         }
 
-        public setCliente(cliente:Cliente){
+        public addCliente(cliente:Cliente){
             this._clientes.push(cliente);
         }
 

@@ -24,7 +24,7 @@ namespace empresa{
             return this._cpf;
         }
 
-        publicsetCpf(cpf:String){
+        public setCpf(cpf:String){
             this._cpf = cpf;
         }
     }
